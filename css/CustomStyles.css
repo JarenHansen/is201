@@ -1,0 +1,10 @@
+.bg-primary{
+  color: black !important;
+  --bs-bg-opacity: 1 !important;
+  background-color: rgb(48, 48, 160) !important;
+}
+
+.text-primary{
+color: rgb(48, 48, 160) !important;
+
+}
