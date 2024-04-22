@@ -1,3 +1,22 @@
+a{
+  color: white;
+}
+
+img{
+  width: 60%;
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeQtDFtWg1G7DpeNMV9Qz6lcSjewI1tEmqw&s);
+  
+}
+
+.lol{
+  width: 50%;
+  z-index: -1; 
+  margin: 250px;
+}
 .bg-primary{
   color: black !important;
   --bs-bg-opacity: 1 !important;
@@ -8,3 +27,342 @@
 color: rgb(48, 48, 160) !important;
 
 }
+
+
+.mainbody{
+  top: 83px;
+  bottom: 34px;
+  width: 99.3%;
+  overflow-y: scroll;
+
+}
+
+
+.header{
+font-family: Impact;
+font-size: x-large;
+color: black;
+background-color: rgb(184, 108, 108);
+border: 20px solid rgb(169, 164, 164);
+width: 97.3%;
+}
+
+
+.blurb1{
+  font-family: sans-serif;
+  font-size: medium;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(184, 108, 108);
+  border: 5px solid rgb(169, 164, 164);
+  width: 50.3%;
+  color: rgb(0, 0, 0);
+}
+
+
+.blurb{
+  font-family: sans-serif;
+  font-size: medium;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(184, 108, 108);
+  border: 5px solid rgb(169, 164, 164);
+  width: 50.3%;
+  color: rgb(37, 37, 37);
+}
+
+.blurb:hover{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: x-large;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(184, 108, 108);
+  border: 5px solid rgb(169, 164, 164);
+  width: 70.3%;
+}
+
+.video{
+border: 2px black;
+margin-top: 20px;
+
+}
+
+
+/* 1st row */
+
+.left{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(-540px);
+  transition:  .2s;
+}
+.left:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  
+}
+.left:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "  The stage of development termed Symbiotic, focusing on its unique perspective on the self and characteristic behaviors. Individuals in this stage lack a distinct perspective on themselves, leading to a nominal understanding of their identity. Their actions are primarily nominal, lacking clear intention or differentiation. This stage is marked by a sense of confusion and a lack of separation between self and surroundings. Rather than viewing themselves as distinct entities, individuals perceive themselves as integral to survival, embodying a symbiotic relationship with their environment." ;
+ 
+}
+
+.middle{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(-90px);
+  transition:  .2s;
+}
+.middle:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 46.3%;
+  transform: translateX(-110px);
+  
+}
+.middle:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "  The impulsive stage of human development, highlighting cognitive and emotional traits typical of this phase. Individuals in this stage exhibit simplistic thinking patterns, often categorizing experiences and people in binary terms such as good or bad, nice or mean. Emotions are expressed in physical terms rather than nuanced feelings, with common phrases like 'seeing red' to denote anger. Repetitive thoughts are prevalent, indicating cognitive rigidity. Despite their need for immediate gratification and basic self-awareness, individuals at this stage struggle to understand complex concepts or differentiate sources of threat, leading to a pervasive sense of insecurity.";
+ 
+}
+
+
+.right{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(360px);
+  transition:  .2s;
+}
+.right:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(170px);
+  
+}
+.right:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "   Individuals in these stages exhibit a self-centric perspective characterized by nominal actions and a first-person perspective focused on immediate desires and goals. Cognitive functioning is marked by concrete thinking and simplistic dichotomies, viewing the world in terms of black and white. Emotionally, there's a prevalence of strong negative affect expressed through simple language and bodily terms.The self-concept in these stages is predominantly defined by present actions and desires rather than psychological states or long-term plans. Individuals display a keen focus on self-preservation and attaining immediate advantages, often resorting to opportunistic or deceptive maneuvers to gain control. They perceive the world as hostile and unpredictable, leading to a pervasive sense of threat and hyper-vigilance. In social contexts, individuals at these stages tend to exhibit volatile relationships and may cause friction due to their I win, you lose mentality. Others perceive them as manipulative, exploitative, and unpredictable, leading to strained interpersonal dynamics. Despite these challenges, individuals at these stages may achieve short-term success in contexts where unilateral power is respected, such as gang culture or certain career paths.Emotionally, self-protective individuals externalize their feelings and display hostility as a means of self-protection, avoiding vulnerability at all costs. Defenses such as fantasy, projection, and blaming are common coping mechanisms to minimize anxiety and maintain a positive self-image. Overall, individuals in these stages lack insight into their behavior and its consequences, often resorting to externalizing blame and showing little remorse for their actions.";
+ 
+}
+
+/* 2nd Row */
+.oneleft{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(-340px);
+  transition:  .2s;
+}
+.oneleft:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(-540px);
+}
+.oneleft:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "  These individuals exhibit a group-centric worldview, where the boundaries between self and in-group are blurred, leading to a strong identification with ones family, tribe, or nation, while viewing outsiders as threats. The text describes their expanded second-person perspective, which involves recognizing the importance of others perceptions and making oneself appealing for social acceptance. Cognitively, individuals in this stage display primary actions and concrete operations, focusing on external features and rudimentary internal states, with conflict often avoided or suppressed. Their language tends to be impersonal and positive, filled with clichés and stereotypical phrases. They exhibit a deep-seated fear of rejection and disapproval, seeking social acceptance and adjusting to group norms to maintain their sense of self-worth. Emotionally, they express simple, acceptable feeling states and rely on defense mechanisms such as projection and introjection to cope with anxiety and maintain a positive self-image. However, they may struggle with identifying and articulating their own emotions, fearing vulnerability and rejection. Socially, individuals in this stage conform to group rules and norms, seeking acceptance and protection from larger entities with clear identities and hierarchical structures. They may exhibit a tendency to give advice and evaluate others based on their own preferences, often believing their way is the only correct way. Despite their desire for belonging and conformity, individuals at this stage may experience conflict when faced with differing value sets or when belonging to multiple groups with conflicting norms. Overall, their sense of self is closely tied to external validation and group acceptance, leading to a dependent, sticky quality in their relationships." ;
+ 
+}
+
+.onemiddle{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(130px);
+  transition:  .2s;
+}
+.onemiddle:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(0px);
+}
+.onemiddle:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "   individuals in the Self-conscious or Expert stage, characterized by their skill-centric perspective and ability to view themselves and others as separate entities with unique differences. These individuals demonstrate abstract operations, allowing them to consider multiple possibilities and solutions to problems. However, they may struggle to prioritize these solutions and often focus on doing things correctly rather than determining the most effective approach. Self-conscious individuals have a sense of specialness and differentiation from others, but they constantly compare themselves to others and fear losing their sense of identity. They may intellectualize and rationalize their behaviors and beliefs to maintain their self-image and resist vulnerability. Cognitively, individuals in this stage use more complex syntax and vocabulary, with a passive interest in causality and a beginning introspection into their own behaviors and traits. However, they may exhibit rigid thinking and a reluctance to accept criticism or alternative viewpoints. Socially, self-conscious individuals seek acceptance and respect from peer groups and organizations based on their expertise and knowledge. They may display perfectionist tendencies and resist collaboration, preferring to maintain control over tasks and processes. Despite their contributions to efficiency and problem-solving, individuals at this stage may struggle with delegating tasks and evaluating others' capabilities objectively. They may exhibit intellectual aggression and argumentativeness, often ridiculing others and imposing their views on others. Overall, while self-conscious individuals play essential roles in society and organizations, their rigid thinking and perfectionism can pose challenges in interpersonal relationships and collaboration.";
+ 
+}
+
+
+/* 3rd Row */
+.twoleft{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(-340px);
+  transition:  .2s;
+}
+.twoleft:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(-540px);
+}
+.twoleft:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "  The text explores the Individualist  Pluralist stage of development, focusing on the characteristics and perspectives of individuals at this stage. These individuals exhibit a self-questioning attitude and adopt the fourth person perspective, which involves recognizing multiple perspectives and the complexity of systems and cultural conditioning. At this stage, individuals realize that things are rarely what they seem and embrace paradoxes and contradictions. They shift from linear, intellectual logic to a more holistic understanding of the world, valuing connections and subtle clues over isolated analysis. They are deeply concerned with their interior world, feelings, and motivations, showing an awareness of inner conflict and ambivalence. From a social perspective, they recognize the subjective nature of interpretation and abandon purely rational analysis in favor of a more holistic approach. They can integrate rational thought with non-linear approaches and empathize with others, tolerating different ideas and behaviors. However, individuals at this stage may experience inner conflict and despair about finding their true selves, grappling with the many contradictions and subpersonalities within them. Despite their admiration from others for their self-expression and spontaneity, they may also be feared or dismissed as unpredictable or dreamers. Their relationships with others can be intense and mutually rewarding when there is synergy, but they may also struggle with managing others due to their autocratic or idiosyncratic tendencies. Overall, individuals at this stage may face anxiety and depression as they navigate the complexities of their inner world and society's demands." ;
+ 
+}
+
+.twomiddle{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(130px);
+  transition:  .2s;
+}
+.twomiddle:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(0px);
+}
+.twomiddle:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "   Individuals in the Autonomous stage, also known as Strategists, focusing on their expanded perspective, actions, and psychological development. These individuals exhibit a self-actualizing tendency, viewing themselves as embedded in historical and cultural contexts and valuing principles of justice and tolerance. Cognitively, they display a complex and flexible thinking style, capable of integrating multiple perspectives and understanding circular causality. They prioritize authenticity, evolution, and self-fulfillment, and employ both both/and and either/or thinking depending on the context. Emotionally, they navigate inner conflict and embrace transformation, experiencing a wide range of emotions and states of awareness. They take responsibility for regulating their thoughts, feelings, and behavior, seeking deeper life purpose and legacy issues. Socially, they demonstrate concern for the well-being of others and stand up against injustices. They prioritize long-term implications and strive to make wise decisions that serve beyond their own time and region. Relationships are seen as mutually supportive and challenging, with a deep sense of interdependence and acceptance of autonomy. Overall, Autonomous individuals exhibit a mature psychological defense mechanism and are dissatisfied when they feel they have not fulfilled their unique potential or lived up to their personal expectations. They may act as charismatic visionary leaders, capable of integrating self and others' development and owning their shadow.";
+ 
+}
+
+
+/* 4th Row */
+.threeleft{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(-340px);
+  transition:  .2s;
+}
+.threeleft:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(-540px);
+}
+.threeleft:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "   the Construct-Aware stage of development, also known as the Magician or Alchemist stage, highlighting its unique perspective, cognitive abilities, and existential concerns. Individuals in this stage possess an advanced understanding of nested systems and cross-paradigmatic thinking, perceiving unitary concepts but not fully embodying them. They transcend personal, rational, symbol-mediated meaning-making, embracing a global-historical perspective and multicultural awareness. Cognitively, Construct-Aware individuals engage in complex, vivid, and authentic language, expressing a vast matrix of topics and insights. They accept paradox and ambiguity, serving both themselves and others with humility in the face of existential predicaments. However, they may struggle with feelings of loneliness and despair, grappling with existential paradoxes and the limits of rational thought. Despite these challenges, Construct-Aware individuals demonstrate an ability to adjust their communication style to mentor others, offering empathetic listening and helping them reframe their experiences based on their developmental stage. Overall, they navigate the tension between existence and non-existence, embracing complexity and uncertainty in their quest for meaning and understanding." ;
+ 
+}
+
+.threemiddle{
+  position: absolute;
+  left: 49.3%;
+  transform: translateX(130px);
+  transition:  .2s;
+}
+.threemiddle:hover{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  left: 49.3%;
+  transform: translateX(0px);
+}
+.threemiddle:hover::after{
+  font-size: medium;
+  border-color: black;
+  border: 4px;
+  content: "   Individuals in the Unitive stage, characterized by a cosmic, ego-transcendent perspective. These individuals possess a vast mental space, allowing them to traverse a wide array of topics and concerns within a single response. Their responses often bridge different levels of contrast, ranging from the concrete to the philosophical, the personal to the global, and the mundane to the sublime. Unitive individuals express themselves with unique and vivid expressions, often using creative metaphors to convey the ordinary and extraordinary aspects of existence. While their responses may vary in complexity, simplicity is not necessarily indicative of their depth; spontaneity and straightforwardness are considered essential elements of wisdom and ego-transcendence. Unlike individuals in earlier stages who may seek meaning to bolster their ego identifications, Unitive adults stand outside this desperate need for meaning-making. They perceive the non-necessity of shielding and bolstering ego identities, allowing them to transcend the limitations of personal realms and embrace a broader, more interconnected view of reality.";
+ 
+}
+
+
+
+
+
+
+
+.bubble{
+  border: 50px solid rgb(184, 108, 108);
+  background-color: rgb(184, 108, 108);
+  font-size: 100px;
+  
+}
+.bubble:hover{
+  width: 257.5px ;
+  border-color: black;
+  border: 5px;
+
+}
+
+.large-bubble{
+  border: 50px solid rgb(184, 108, 108);
+  background-color: rgb(184, 108, 108);
+  font-size: 100px;
+}
+.large-bubble:hover{
+  width: 550.5px ;
+  border-color: black;
+  border: 5px;
+}
+
+.secondlarge-bubble{
+  border: 80px solid rgb(184, 108, 108);
+  background-color: rgb(184, 108, 108);
+  font-size: 130px;
+  
+}
+.secondlarge-bubble:hover{
+  width: 550.5px ;
+  border-color: black;
+  border: 5px;
+
+}
+
+
+.plank{
+  width: 97.3%;
+  border-color: black;
+  border: 400px;
+  color: black;
+}
+
+.smallheader{
+  font-family: sans-serif;
+  font-size: large;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(184, 108, 108);
+  border: 5px solid rgb(169, 164, 164);
+  width: 40%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+.footer{
+ margin: 0 auto;
+ position: fixed;
+ bottom: 0;
+ width: 98.3%;
+ background-color: #333;
+ color: white;
+ text-align: center;
+ padding: 5px ;
+ z-index: 1; 
+}
+

@@ -247,17 +247,14 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color:solid rgb(0, 0, 0) !important;
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: grey;
 }
 
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: inherit;
-  text-decoration: none;
-}
+
 
 pre,
 code,
@@ -10865,6 +10862,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: black;
 }
 
 #sideNav {
